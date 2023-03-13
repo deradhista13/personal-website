@@ -3,7 +3,11 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 interface LayoutProps {
+  children: React.ReactNode;
+}
+
 const Layout: FC<LayoutProps> = ({ children }) => {
+  return (
     <div className="w-full h-screen bg-white overflow-auto">
       <Navbar />
       {children}
@@ -11,3 +15,5 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     </div>
   );
 };
+
+export default Layout;
