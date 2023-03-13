@@ -1,7 +1,5 @@
-import React from "react";
 import Layout from "../components/Layout";
 
-import { FiArrowUpRight } from "react-icons/Fi";
 import bgwebsite from "../assets/bg-website.png";
 import profil from "../assets/Profile.png";
 import work from "../assets/work.jpg";
