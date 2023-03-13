@@ -11,7 +11,6 @@ import sirloin from "../assets/sirloin.png";
 const landingPage = () => {
   return (
     <Layout>
-      {/* Hero */}
       <div
         className="hero min-h-screen"
         style={{ backgroundImage: `url(${bgwebsite})` }}
@@ -33,8 +32,7 @@ const landingPage = () => {
           </div>
         </div>
       </div>
-      {/* Hero */}
-      {/* slice-1 */}
+
       <div className="flex flex-row justify-between max-h-screen px-36 py-20">
         <div className="flex flex-col justify-center space-y-5 max-w-lg">
           <h2 className="font-bold text-4xl text-[#0A6289] leading-snug">
@@ -54,8 +52,7 @@ const landingPage = () => {
           <img src={profil} alt="profil" className="rounded-md" />
         </figure>
       </div>
-      {/* slice-1 */}
-      {/* slice-2 */}
+
       <div className="flex flex-row justify-between max-h-screen px-36 py-20 ">
         <figure className="max-w-sm">
           <img src={work} alt="work" className="rounded-md" />
@@ -72,8 +69,7 @@ const landingPage = () => {
           </p>
         </div>
       </div>
-      {/* slice-2 */}
-      {/* slice-3 */}
+
       <div className="max-h-screen px-36 py-5 ">
         <h2 className="font-bold text-4xl text-[#0A6289] leading-snug text-center pb-10">
           My Project
@@ -102,7 +98,7 @@ const landingPage = () => {
               Simple web app to get pokemons and battle them.
             </p>
           </div>
-          {/*  */}
+
           <div className=" grid grid-row justify-items-center p-5">
             <figure className="max-w-sm pb-5">
               <img src={todo} alt="project" />
@@ -114,7 +110,7 @@ const landingPage = () => {
               Simple Todo-List App
             </p>
           </div>
-          {/*  */}
+
           <div className=" grid grid-row justify-items-center p-5">
             <figure className="max-w-sm pb-5">
               <img src={sirloin} alt="project" />
@@ -128,8 +124,6 @@ const landingPage = () => {
           </div>
         </div>
       </div>
-
-      {/* slice-3 */}
     </Layout>
   );
 };
